@@ -40,6 +40,6 @@ SELECT*FROM tb_pizzas INNER JOIN tb_categorias on preco >=50 and preco <=100;
 
 SELECT*FROM tb_pizzas WHERE nome LIKE "%M%";
 
-SELECT*from tb_pizzas INNER JOIN tb_categorias;
+SELECT*from tb_pizzas INNER JOIN tb_categorias on precoId=precoId;
 
 SELECT*FROM tb_pizzas INNER JOIN tb_categorias on sabor = "Doce";

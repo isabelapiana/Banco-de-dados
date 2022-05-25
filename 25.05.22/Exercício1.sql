@@ -41,6 +41,6 @@ SELECT*FROM tb_personagens INNER JOIN tb_classes on defesa>=1000 and defesa <=20
 
 SELECT*FROM tb_personagens WHERE nome LIKE "%C%";
 
-SELECT*from tb_personagens INNER JOIN tb_classes;
+SELECT*from tb_personagens INNER JOIN tb_classes on habilidadeId=habilidadeId;
 
 SELECT*FROM tb_personagens INNER JOIN tb_classes on classe = "Arqueiro";

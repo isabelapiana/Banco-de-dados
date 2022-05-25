@@ -44,6 +44,6 @@ SELECT*FROM tb_produtos INNER JOIN tb_categorias on preco>=5 and preco <=60;
 
 SELECT*FROM tb_produtos WHERE nome LIKE "%C%";
 
-SELECT*from tb_produtos INNER JOIN tb_categorias;
+SELECT*from tb_produtos INNER JOIN tb_categorias on marcaId=marcaId;
 
 SELECT*FROM tb_produtos INNER JOIN tb_categorias on marca = "Genérico";
